@@ -27,7 +27,7 @@
 <!--						<div class="logo">-->
 <!--							<span class="icon fa-gem"></span>-->
 <!--						</div>-->
-						<div class="content">
+						<div class="content" >
 							<div class="inner" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 								<div style="background-color: rgba(0,0,0,0.8); padding: 5%; border: 1px solid white;">
 								<h5>Welcome To</h5>
@@ -39,15 +39,17 @@
 								<h3> A luxury hair Studio in the heart of Foxrock.</h3>
 								</div>
 								<br>
-								<nav onclick="navigateToUrl('https://www.phorest.com/salon/santannahairstudio')" >
-									<ul>
-										<li style="background-color: #786229;">
-											<a href="https://www.phorest.com/salon/santannahairstudio" target="_blank" style="color: white; font-weight: bolder;">Make A Booking23</a>
-										</li>
-									</ul>
-								</nav>
+
 							</div>
 						</div>
+
+						<nav onclick="navigateToUrl('https://www.phorest.com/salon/santannahairstudio')" style="position: relative; z-index: 1000;">
+							<ul>
+								<li style="background-color: #786229;">
+									<a href="https://www.phorest.com/salon/santannahairstudio" target="_blank" style="color: white; font-weight: bolder;">Make A Bookingxxx</a>
+								</li>
+							</ul>
+						</nav>
 						<nav>
 							<ul>
 								<li style="background-color: rgba(0,0,0,0.8)"><a href="#intro">Studio</a></li>
@@ -168,7 +170,7 @@
 
 									<ul class="actions">
 
-										<li><input type="button" value="Call 01 2891111" class="primary"/></li>
+										<li><input type="button" value="Call 01 2891111" class="primary call-button"/></li>
 										<li><input type="button" value="Email Us" class="primary email-button copy-button" /></li>
 										<br>
 										<a href="https://maps.app.goo.gl/S7GqZKi4qPHxijXUA"><li><input type="button" value="Get Directions" class="primary" /></li></a>
@@ -507,14 +509,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		});
 
 	</script>
-<!--	<script>-->
-<!--		const callButton = document.querySelector('.call-button');-->
+	<script>
+		const callButton = document.querySelector('.call-button');
 
-<!--	callButton.addEventListener('click', function() {-->
-<!--		const phoneNumber = "your-phone-number"; // Replace with your actual phone number-->
-<!--		window.location.href = `tel:${phoneNumber}`;-->
-<!--	});-->
-<!--	</script>-->
+	callButton.addEventListener('click', function() {
+		const phoneNumber = "01 2891111"; // Replace with your actual phone number
+		window.location.href = `tel:${phoneNumber}`;
+	});
+	</script>
 	<script>
 		const emailButton = document.querySelector('.email-button');
 
